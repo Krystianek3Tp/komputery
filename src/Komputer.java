@@ -7,5 +7,6 @@ public interface Komputer extends Comparable<Komputer>{
         String nazwa = getClass().getName();
         String nazwaDruga = o.getClass().getName();
 
+        return nazwa.compareTo(nazwaDruga);
     }
 }
